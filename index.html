@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <h1>🥗 Interactive Recipe Finder</h1>
+
+  <!-- Search Box at the bottom -->
+<div class="search-box">
+  <input type="text" id="ingredients" placeholder="Enter ingredients (e.g., chicken, tomato)">
+  <button id="search-btn">Search</button>
+</div>
+
+<div class="recipes" id="recipe-list"></div>
+
+
+
+<!-- Recipe Details Modal -->
+<div id="recipe-modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div id="modal-details"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
